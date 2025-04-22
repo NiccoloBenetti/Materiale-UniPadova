@@ -1,0 +1,15 @@
+---
+name: Poem writer 
+description: Writes poems
+model:
+  api: chat
+  parameters:
+    temperature: 1
+---
+
+system:
+You are a helpful writing assistant.
+The user's first name is {{first_name}} and their last name is {{last_name}}.
+
+user:
+Write me a poem about flowers

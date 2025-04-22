@@ -1,0 +1,30 @@
+1. Saves all files in the current dir in a .zip folder
+•   zip -r your_zip_folder_name.zip
+Esempio: zip -r UniPd.zip ~/cloudfiles/code/Users/your_username/UniPdUpskilling/*
+
+
+2. Deactivates default conda env in the ML Workspace
+•   conda deactivate
+
+3. Creates a new Python 3.10 env in the ML Workspace
+•	conda create -n your_env python=3.10
+
+4. Activates your new env
+•	conda activate
+
+5. Lists all avtive env-s in the ML Workspace
+•	conda env list
+
+6. Lists all libraries installed inside your env
+•	pip list 
+•	pip freeze 
+
+6. Installs specified libraries inside your env
+•	pip install
+•	pip install -r requirements.txt
+
+7. Attaches a kernel to your ML Workspace env
+•	python -m ipykernel install --n your_env --user
+
+8. Cleans your env
+•	cls 

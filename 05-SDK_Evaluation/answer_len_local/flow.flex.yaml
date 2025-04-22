@@ -1,0 +1,4 @@
+inputs:
+  answer:
+    type: string
+entry: answer_length:AnswerLengthEvaluator
